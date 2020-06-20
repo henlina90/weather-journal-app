@@ -17,7 +17,7 @@ body {
 .row {
   min-height: 100vh;
   padding: 0.5em;
-  width: 830px;
+  width: 840px;
 }
 
 .s6 {
@@ -31,8 +31,7 @@ body {
 
 .left-bg {
   background-color: #d4d4d4;
-
-  height: 530px;
+  height: 540px;
   font-family: "Flavors", cursive;
   text-align: center;
 }
@@ -54,7 +53,7 @@ body {
 
 .right-bg {
   background-color: #212121;
-  height: 530px;
+  height: 540px;
   padding: 1.2em;
 }
 

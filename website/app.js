@@ -11,14 +11,16 @@ const kelvinScale = 273.15;
 let d = new Date();
 let newDate = d.getMonth() + 1 + "/" + d.getDate() + "/" + d.getFullYear();
 
-submitButton.addEventListener("click", async () => {
+submitButton.addEventListener("click", callBack);
+
+async function callBack() {
   const zipCode = document.querySelector("#zip").value;
   const apiData = await getWeatherData(zipCode);
   const cTemp = apiData.main.temp - kelvinScale;
   const fTemp = Math.round((cTemp * 9) / 5 + 32);
   const content = document.querySelector("#feelings").value;
   postData(fTemp, newDate, content);
-});
+}
 
 function getData() {
   fetch("/getData")
