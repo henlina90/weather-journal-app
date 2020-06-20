@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffff8;
+  font-family: "Balsamiq Sans", cursive;
+  overflow: hidden;
+  margin: 0;
+  opacity: 80%;
+  color: #212121;
+  background-image: url("./img/joshua-reddekopp-7Oq9r2CiTLg-unsplash.jpg");
+  background-size: cover;
+  letter-spacing: 0.5px;
+}
+
+.row {
+  min-height: 100vh;
+  padding: 0.5em;
+  width: 830px;
+}
+
+.s6 {
+  border-radius: 10px;
+  margin: 8px;
+  border: 3px solid #4db6ac;
+  opacity: 90%;
+}
+
+/*LEFT COLUMN*/
+
+.left-bg {
+  background-color: #d4d4d4;
+
+  height: 530px;
+  font-family: "Flavors", cursive;
+  text-align: center;
+}
+
+.bubble {
+  color: #4db6ac;
+  font-size: 9rem;
+}
+
+.headline {
+  font-size: 5em;
+}
+
+.dot {
+  color: #4db6ac;
+}
+
+/*RIGHT COLUMN*/
+
+.right-bg {
+  background-color: #212121;
+  height: 530px;
+  padding: 1.2em;
+}
+
+.icons {
+  color: black;
+  margin: 0.5em;
+}
+
+.text {
+  padding: 1em;
+  text-align: center;
+}
+
+input {
+  color: #eee;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.btn-small {
+  background-color: #4db6ac;
+  color: #212121;
+  font-family: "Balsamiq Sans", cursive;
+  margin: 0.5em;
+  border-radius: 10px;
+}
+
+p {
+  font-weight: 400;
+  padding-top: 2em;
+}
+
+.entry {
+  color: #000;
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 5em;
+  opacity: 85%;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  padding: 0.5em;
+}
+
+hr.dotted {
+  border: 1px solid #000;
+}
+
+#entryHolder {
+  padding: 2px;
+}
