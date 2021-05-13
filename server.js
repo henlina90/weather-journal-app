@@ -33,7 +33,7 @@ app.post("/postData", function (req, res) {
 app.use(express.static("website"));
 
 // Setup Server
-const port = 4000;
+const port = 4000 || process.env.PORT;
 const server = app.listen(port, () => {
   console.log(`running on localhost: ${port}`);
 });
