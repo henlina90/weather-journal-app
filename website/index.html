@@ -2,11 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Weather Journal</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Flavors&display=swap"
-      rel="stylesheet"
-    />
+    <title>Udacity's Weather Journal APP Project</title>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -21,15 +17,8 @@
   </head>
   <body>
     <div class="container">
-      <div class="row valign-wrapper">
-        <div class="col s6 left-bg z-depth-5">
-          <i class="material-icons bubble">bubble_chart</i>
-          <div class="headline">
-            Weather Journal App<span class="dot">.</span>
-          </div>
-        </div>
-        <div class="col s6 right-bg z-depth-5">
-          <i class="material-icons icons">hdr_strong</i>
+      <i class="material-icons">local_florist</i>
+      <h5>MY WEATHER JOURNAL APP</h5>
           <div class="zip text">
             <input type="text" id="zip" placeholder="enter zip code here*" />
           </div>
@@ -42,17 +31,17 @@
                 placeholder="'how are you feeling today?"
               />
             </div>
+            </div>
             <button
               id="generate"
-              class="waves-effect waves-light btn-small right"
+              class="waves-effect waves-light btn-small"
               type="submit"
             >
-              Generate
+              Generate <i class="material-icons right">cloud</i>
             </button>
           </div>
           <div class="container entry">
-            <p>Most Recent Entry</p>
-            <i class="material-icons">keyboard_arrow_down</i>
+            <h6>MOST RECENT ENTRY</h6>
             <div id="entryHolder">
               <div id="date"></div>
               <div id="temp"></div>
